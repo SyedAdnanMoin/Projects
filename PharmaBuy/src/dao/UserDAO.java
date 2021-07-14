@@ -10,13 +10,7 @@ import java.sql.SQLException;
 
 import model.User;
 
-/**
- * AbstractDAO.java This DAO class provides CRUD database operations for the
- * table users in the database.
- * 
- * @author Ramesh Fadatare
- *
- */
+
 public class UserDAO {
     private String jdbcURL = "jdbc:mysql://localhost:3306/COVIDprjct?useSSL=false";
     private String jdbcUsername = "root";
